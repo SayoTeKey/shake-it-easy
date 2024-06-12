@@ -1,0 +1,285 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+  padding: 0 180px 20px;
+  background-image: url(./images/Background-Shake3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  background-attachment: fixed;
+  /*opacity?*/
+}
+
+.adresse {
+  font-size: x-large;
+  font-weight: bolder;
+  padding-top: 15px;
+  padding-bottom: 45px;
+  margin-left: 20px;
+  color: #af1740;
+  width: 40%;
+}
+
+#angebot2 {
+  border: 2px solid brown;
+  width: 100%;
+}
+
+.ansprache {
+  width: 100%;
+  display: inline-block;
+  color: black;
+}
+
+.ansprache-text {
+  padding-left: 20px;
+}
+
+aside {
+  margin-top: 20px;
+  background-color: #aa264e;
+  padding: 20px 30px;
+}
+
+.begruessung {
+  font-size: 24px;
+  text-align: justify;
+  font-size: larger;
+  font-weight: bolder;
+  color: #aa264e;
+  padding-left: 30px;
+}
+
+/*.bg-index-aside {
+}*/
+
+.clear {
+  border: 2px solid #45858C;
+  display: inline-block;
+  /*der Inhalt bleibt drin und rutscht nicht über den Rand*/
+  margin: 20px 10px;
+}
+
+/*.dropdown {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+} */
+
+.event {
+  color: rgb(170, 37, 13);
+  font-size: 32px;
+  background-color: white;
+  text-align: center;
+}
+
+.fliesstext-right {
+  font-size: 14px;
+  margin: 10px;
+  padding-left: 350px;
+  padding-right: 50px;
+  text-align: justify;
+  background-color: #aa264e;
+}
+
+.fliesstext-left {
+  font-size: 14px;
+  margin: 10px;
+  padding-right: 350px;
+  padding-right: 50px;
+  text-align: justify;
+  background-color: rgb(89, 32, 143);
+}
+
+footer {
+  border: 5px solid white;
+  background-color: white;
+  padding-left: 20px;
+  font-size: larger;
+  color: #aa264e;
+}
+
+#footer-links {
+  margin: 10px 0px;
+}
+
+footer a {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  text-decoration: underline;
+  background-color: #45858C;
+  font-size: 45px;
+  margin: 0;
+  padding: 20px 10px 0px 10px;
+}
+
+h1 a {
+  color: #af1740;
+}
+
+h1 a:hover {
+  color: aliceblue;
+}
+
+h2 {
+  font-size: 22px;
+  margin-left: 15px;
+}
+
+.h3-right {
+  font-size: 20px;
+  font-family: monospace;
+  text-decoration: overline;
+  color: rgb(89, 32, 143);
+  margin-left: 10px;
+}
+
+.h3-left {
+  font-size: 20px;
+  font-family: monospace;
+  text-decoration: overline;
+  color: #aa264e;
+  margin-left: 10px;
+}
+
+h4 {
+  text-decoration: underline;
+  margin-left: 10px;
+}
+
+.iframe {
+  display: block;
+  padding-bottom: 40px;
+}
+
+.index-main {
+  margin: 10px;
+  padding: 0 20px;
+}
+
+.introtext {
+  font-size: 17px;
+}
+
+.image-left {
+  float: left;
+  margin: 10px;
+}
+
+.image-right {
+  float: right;
+  margin: 10px;
+}
+
+.main-wo {
+  display: flex;
+  /*nebeneinander*/
+  flex-wrap: wrap;
+  align-items: center;
+  /* mittige anordnung*/
+  background-color: whitesmoke;
+  border: 2px solid black;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #45858C;
+  padding: 10px;
+}
+
+nav a {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: rgb(90, 64, 64);
+  text-align: center;
+  padding: 6px 10px;
+  background-color: #e2a9ac;
+  min-width: 100px;
+  /* alle Buttons gleich groß*/
+}
+
+nav a:link {
+  /*noch nicht besucht*/
+  color: rgb(102, 100, 102);
+  text-decoration: none;
+}
+
+nav a:visited {
+  /* bereits besucht*/
+  color: black;
+}
+
+nav a:hover {
+  /* hover mit maus*/
+  color: white;
+  background-color: rgb(24, 6, 6);
+  text-decoration: underline;
+}
+
+nav a:focus {
+  /*fokus für TAB*/
+  border: 5px solid rgb(172, 94, 63);
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+}
+
+nav a:active {
+  /* gerade angeklickt*/
+  color: white;
+  background-color: rgb(24, 6, 6);
+  border: 5px solid white;
+}
+
+.offen {
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.reserve {
+  display: block;
+  border: 2px solid black;
+  border-radius: 15px;
+  text-align: center;
+  background-color: black;
+  color: rgb(255, 255, 255);
+  max-width: 300px;
+  padding: 6px 10px;
+}
+
+.reservetext {
+  margin: 40px 0px;
+  padding-left: 30px;
+}
+
+.sticky {
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  /* z-index: je größer der Wert, desto weiter ist das Element vorn*/
+  z-index: 999;
+}
+
+.subheadline {
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 0;
+  background-color: #45858C;
+}
+
+table,
+th,
+td tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: left;
+  background-color: grey;
+}
+
+tr {
+  min-width: 100px;
+  border-style: groove;
+}
