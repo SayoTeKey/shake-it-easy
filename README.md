@@ -1,4 +1,5 @@
-# final-project-shake-it-easy
+# shake-it-easy
+(final-project for beginner class)
 
 ## my first little beginner project at the start of my way in IT
 
