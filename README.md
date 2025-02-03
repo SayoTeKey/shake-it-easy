@@ -1,5 +1,6 @@
 # shake-it-easy
 https://sayotekey.github.io/shake-it-easy/
+<br/>
 (final-project for beginner class)
 
 ## my first little beginner project at the start of my way in IT
